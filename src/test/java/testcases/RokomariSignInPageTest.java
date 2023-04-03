@@ -35,15 +35,38 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 			e.printStackTrace();
 		}
 		
-		
 		rokomariHomePage.hoverTest(rokomariHomePage.Lekhok);
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		rokomariHomePage.clickOnElement(rokomariHomePage.Humayun_Ahmed);
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		rokomariHomePage.scrollToElement(rokomariHomePage.scroll);
+		Thread.sleep(2000);
+		
+		rokomariHomePage.clickOnElement(rokomariHomePage.Filter_1);
+		Thread.sleep(2000);
+		
+		rokomariHomePage.scrollToElement(rokomariHomePage.Bottom_Scroll);
+		Thread.sleep(2000);
+		
+		rokomariHomePage.clickOnElement((rokomariHomePage.Next_Page));
+		Thread.sleep(2000);
+		
+		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll2);
+		Thread.sleep(10000);
+		
+		rokomariHomePage.hoverTest(rokomariHomePage.Hover_Add_To_Cart);
+		Thread.sleep(2000);
+		
+		rokomariHomePage.clickOnElement(rokomariHomePage.Add_To_Cart);
 		Thread.sleep(5000);
+		
+		rokomariHomePage.clickOnElement(rokomariHomePage.Cart_Icon);
+		Thread.sleep(3000);
+		
+		
+		
 		
 		
 	}

@@ -3,8 +3,11 @@
 <suite thread-count="3" parallel="methods" name="Suite">
   <test thread-count="3" parallel="methods" name="Test">
     <classes>
-      <class name="testcases.RokomariSignInPageTest"/>
-      <class name="testcases.RokomariHomePageTest"/>
+	
+		 <class name="testcases.RokomariHomePageTest"/>
+		 	<class name="testcases.RokomariSignInPageTest"/>
+         
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

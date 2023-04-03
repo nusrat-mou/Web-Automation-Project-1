@@ -25,8 +25,8 @@ public class RokomariHomePageTest extends BaseDriverSetup {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		rokomariHomePage.clickOnElement(rokomariHomePage.Sign_In_Button);
-		Thread.sleep(5000);
+
+		
 		
 	}
 

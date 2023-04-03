@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 03 20:31:11 BDT 2023</td>
+<td>Started on:</td><td>Mon Apr 03 21:46:36 BDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>83 seconds (83934 ms)</td>
+<tr><td>Total time:</td><td>83 seconds (83141 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testcases.RokomariSignInPageTest.SignInTest()'><b>SignInTest</b><br>Test class: testcases.RokomariSignInPageTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-validation-type=&quot;form-submit&quot; class=&quot;btn btn-block&quot; onclick=&quot;gtag(&apos;event&apos;, &apos;login&apos;, { method: &apos;GENERIC&apos;});&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (865, 587). Other element would receive the click: &lt;div class=&quot;popup-modal notification-permission-modal&quot; id=&quot;js--notification-permission-modal&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=111.0.5563.147)
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [496ed78f12843e20572fed40ae664d8b, clickElement {id=70bfe76a-1025-4526-8a73-189a23d48cad}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50754/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (496ed78f12843e20572fed40ae664d8b)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
-Session ID: 496ed78f12843e20572fed40ae664d8b
+Command: [cef6f46d89a36d64fb659bbc7f4dfaad, clickElement {id=1ce08430-afdb-4d4a-923e-0be65ef89e4b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3447/devtool..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cef6f46d89a36d64fb659bbc7f4dfaad)] -&gt; xpath: //div[@id=&apos;js--notify-overlay&apos;]]
+Session ID: cef6f46d89a36d64fb659bbc7f4dfaad
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -96,20 +96,20 @@ Session ID: 496ed78f12843e20572fed40ae664d8b
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at pages.BasePage.clickOnElement(BasePage.java:25)
-	at testcases.RokomariSignInPageTest.SignInTest(RokomariSignInPageTest.java:25)
+	at testcases.RokomariSignInPageTest.SignInTest(RokomariSignInPageTest.java:47)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace132579966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace132579966'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-validation-type=&quot;form-submit&quot; class=&quot;btn btn-block&quot; onclick=&quot;gtag(&apos;event&apos;, &apos;login&apos;, { method: &apos;GENERIC&apos;});&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (865, 587). Other element would receive the click: &lt;div class=&quot;popup-modal notification-permission-modal&quot; id=&quot;js--notification-permission-modal&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace274048129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace274048129'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=111.0.5563.147)
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [496ed78f12843e20572fed40ae664d8b, clickElement {id=70bfe76a-1025-4526-8a73-189a23d48cad}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50754/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (496ed78f12843e20572fed40ae664d8b)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
-Session ID: 496ed78f12843e20572fed40ae664d8b
+Command: [cef6f46d89a36d64fb659bbc7f4dfaad, clickElement {id=1ce08430-afdb-4d4a-923e-0be65ef89e4b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3447/devtool..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cef6f46d89a36d64fb659bbc7f4dfaad)] -&gt; xpath: //div[@id=&apos;js--notify-overlay&apos;]]
+Session ID: cef6f46d89a36d64fb659bbc7f4dfaad
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -125,7 +125,7 @@ Session ID: 496ed78f12843e20572fed40ae664d8b
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at pages.BasePage.clickOnElement(BasePage.java:25)
-	at testcases.RokomariSignInPageTest.SignInTest(RokomariSignInPageTest.java:25)
+	at testcases.RokomariSignInPageTest.SignInTest(RokomariSignInPageTest.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,8 +142,8 @@ Session ID: 496ed78f12843e20572fed40ae664d8b
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>40</td>
-<td>testcases.RokomariSignInPageTest@3b7d3a38</td></tr>
+<td>74</td>
+<td>testcases.RokomariSignInPageTest@764faa6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -156,8 +156,8 @@ Session ID: 496ed78f12843e20572fed40ae664d8b
 <tr>
 <td title='testcases.RokomariHomePageTest.TestHomePage()'><b>TestHomePage</b><br>Test class: testcases.RokomariHomePageTest</td>
 <td></td>
-<td>50</td>
-<td>testcases.RokomariHomePageTest@764faa6</td></tr>
+<td>38</td>
+<td>testcases.RokomariHomePageTest@1046d517</td></tr>
 </table><p>
 </body>
 </html>
