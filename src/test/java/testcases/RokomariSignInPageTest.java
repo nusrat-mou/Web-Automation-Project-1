@@ -26,7 +26,7 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		
 		
 		rokomariSignInPage.writeText(rokomariSignInPage.email_phone_input, "nus.mou.106@gmail.com");
-		rokomariSignInPage.writeText(rokomariSignInPage.password_field, "Item9560##");
+		rokomariSignInPage.writeText(rokomariSignInPage.password_field, "12345678910");
 		rokomariSignInPage.clickOnElement(rokomariSignInPage.Login_Button);
 		try {
 			Thread.sleep(10000);
@@ -36,7 +36,7 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		}
 		
 		rokomariHomePage.hoverTest(rokomariHomePage.Lekhok);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
 		rokomariHomePage.clickOnElement(rokomariHomePage.Humayun_Ahmed);
 		Thread.sleep(2000);
@@ -54,7 +54,7 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		Thread.sleep(2000);
 		
 		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll2);
-		Thread.sleep(10000);
+		Thread.sleep(2000);
 		
 		rokomariHomePage.hoverTest(rokomariHomePage.Hover_Add_To_Cart);
 		Thread.sleep(2000);
@@ -64,6 +64,23 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		
 		rokomariHomePage.clickOnElement(rokomariHomePage.Cart_Icon);
 		Thread.sleep(3000);
+		
+		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll3);
+		Thread.sleep(2000);
+		
+		rokomariHomePage.clickOnElement(rokomariHomePage.Place_Order);
+		Thread.sleep(3000);
+		
+		rokomariHomePage.writeText(rokomariHomePage.Alternative_Number, "01720970244");
+		Thread.sleep(3000);
+		rokomariHomePage.clickOnElement(rokomariHomePage.Select_Country);
+		Thread.sleep(3000);
+		rokomariHomePage.writeText(rokomariHomePage.Street_Address, "Mumbai");
+		Thread.sleep(3000);
+		rokomariHomePage.clickOnElement(rokomariHomePage.Account);
+		Thread.sleep(2000);
+		rokomariHomePage.clickOnElement(rokomariHomePage.Sign_Out);
+		Thread.sleep(2000);
 		
 		
 		

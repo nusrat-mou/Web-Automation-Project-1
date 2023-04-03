@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Apr 02 21:15:51 BDT 2023","Sun Apr 02 21:16:12 BDT 2023","20573","Default suite","Default test","testcases.RokomariLoginPageTest","testcases.RokomariLoginPageTest","SignUpClickTest","SignUpClickTest",""
+"passed","Tue Apr 04 03:05:34 BDT 2023","Tue Apr 04 03:07:31 BDT 2023","117086","Suite","Test","testcases.RokomariSignInPageTest","testcases.RokomariSignInPageTest","SignInTest","SignInTest",""
+"passed","Sun Apr 02 20:14:40 BDT 2023","Sun Apr 02 20:15:17 BDT 2023","37130","Default suite","Default test","testcases.RokomariHomePageTest","testcases.RokomariHomePageTest","TestHover","TestHover",""
+"broken","Sun Apr 02 15:44:37 BDT 2023","Sun Apr 02 15:44:42 BDT 2023","5094","Default suite","Default test","testcases.RokomariHomePageTest","testcases.RokomariHomePageTest","clickOnSignInButton","clickOnSignInButton",""
+"broken","Sun Apr 02 19:48:14 BDT 2023","Sun Apr 02 19:48:19 BDT 2023","5056","Default suite","Default test","testcases.RokomariHomePageTest","testcases.RokomariHomePageTest","hoverOnSignIn","hoverOnSignIn",""
+"passed","Tue Apr 04 03:05:30 BDT 2023","Tue Apr 04 03:06:10 BDT 2023","39773","Suite","Test","testcases.RokomariHomePageTest","testcases.RokomariHomePageTest","TestHomePage","TestHomePage",""
