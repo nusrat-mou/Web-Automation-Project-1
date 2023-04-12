@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-04T03:05:21 BDT" name="Suite" finished-at="2023-04-04T03:07:31 BDT" duration-ms="129921">
+  <suite started-at="2023-04-12T21:47:23 BDT" name="Default suite" finished-at="2023-04-12T21:49:23 BDT" duration-ms="120621">
     <groups>
     </groups>
-    <test started-at="2023-04-04T03:05:21 BDT" name="Test" finished-at="2023-04-04T03:07:31 BDT" duration-ms="129921">
+    <test started-at="2023-04-12T21:47:23 BDT" name="Default test" finished-at="2023-04-12T21:49:23 BDT" duration-ms="120621">
       <class name="testcases.RokomariSignInPageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.RokomariSignInPageTest@764faa6]" started-at="2023-04-04T03:05:21 BDT" name="setBrowser" finished-at="2023-04-04T03:05:34 BDT" duration-ms="12168" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.RokomariSignInPageTest@ca30bc1]" started-at="2023-04-12T21:47:23 BDT" name="setBrowser" finished-at="2023-04-12T21:47:28 BDT" duration-ms="5332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="SignInTest()[pri:0, instance:testcases.RokomariSignInPageTest@764faa6]" started-at="2023-04-04T03:05:34 BDT" name="SignInTest" finished-at="2023-04-04T03:07:31 BDT" duration-ms="117092" status="PASS">
+        <test-method signature="SignInTest()[pri:0, instance:testcases.RokomariSignInPageTest@ca30bc1]" started-at="2023-04-12T21:47:29 BDT" name="SignInTest" finished-at="2023-04-12T21:49:23 BDT" duration-ms="114158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignInTest -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.RokomariSignInPageTest@764faa6]" started-at="2023-04-04T03:07:31 BDT" name="quitBrowser" finished-at="2023-04-04T03:07:31 BDT" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.RokomariSignInPageTest@ca30bc1]" started-at="2023-04-12T21:49:23 BDT" name="quitBrowser" finished-at="2023-04-12T21:49:23 BDT" duration-ms="730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- testcases.RokomariSignInPageTest -->
-      <class name="testcases.RokomariHomePageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.RokomariHomePageTest@1046d517]" started-at="2023-04-04T03:05:21 BDT" name="setBrowser" finished-at="2023-04-04T03:05:30 BDT" duration-ms="8482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="TestHomePage()[pri:0, instance:testcases.RokomariHomePageTest@1046d517]" started-at="2023-04-04T03:05:30 BDT" name="TestHomePage" finished-at="2023-04-04T03:06:10 BDT" duration-ms="39887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestHomePage -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.RokomariHomePageTest@1046d517]" started-at="2023-04-04T03:06:10 BDT" name="quitBrowser" finished-at="2023-04-04T03:06:12 BDT" duration-ms="2240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- testcases.RokomariHomePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

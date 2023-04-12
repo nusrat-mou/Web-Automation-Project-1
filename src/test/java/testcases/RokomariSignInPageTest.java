@@ -36,7 +36,7 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		}
 		
 		rokomariHomePage.hoverTest(rokomariHomePage.Lekhok);
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		rokomariHomePage.clickOnElement(rokomariHomePage.Humayun_Ahmed);
 		Thread.sleep(2000);
@@ -54,10 +54,10 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		Thread.sleep(2000);
 		
 		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll2);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		rokomariHomePage.hoverTest(rokomariHomePage.Hover_Add_To_Cart);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		rokomariHomePage.clickOnElement(rokomariHomePage.Add_To_Cart);
 		Thread.sleep(5000);
