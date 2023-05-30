@@ -11,6 +11,6 @@
 **Step 5:** *After filtering results, the page will be scrolled down to the bottom and click next.* <br>
 **Step 6:** *Then, a book from the list will be hovered and added to the cart.* <br>
 **Step 7:** *After that, the cart icon on the above right side will be clicked.* <br>
-**Step 8:** *The page will be slightly scrolled down and place order button will be clicked.*
-**Step 9:** *Then it will redirect to the shipping page and the necessary fields for placing an order will be filled.*
+**Step 8:** *The page will be slightly scrolled down and place order button will be clicked.* <br>
+**Step 9:** *Then it will redirect to the shipping page and the necessary fields for placing an order will be filled.* <br>
 **Step 10:** *Then the logout operation will occur.* <br>
