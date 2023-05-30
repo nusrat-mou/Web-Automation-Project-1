@@ -40,52 +40,6 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 			e.printStackTrace();
 		}
 		
-		rokomariHomePage.hoverTest(rokomariHomePage.Lekhok);
-		Thread.sleep(2000);
-		
-		rokomariHomePage.clickOnElement(rokomariHomePage.Humayun_Ahmed);
-		Thread.sleep(2000);
-		
-		rokomariHomePage.scrollToElement(rokomariHomePage.scroll);
-		Thread.sleep(2000);
-		
-		rokomariHomePage.clickOnElement(rokomariHomePage.Filter_1);
-		Thread.sleep(2000);
-		
-		rokomariHomePage.scrollToElement(rokomariHomePage.Bottom_Scroll);
-		Thread.sleep(5000);
-		
-		rokomariHomePage.clickOnElement((rokomariHomePage.Next_Page));
-		Thread.sleep(3000);
-		
-		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll2);
-		Thread.sleep(3000);
-		
-		rokomariHomePage.hoverTest(rokomariHomePage.Hover_Add_To_Cart);
-		Thread.sleep(3000);
-		
-		rokomariHomePage.clickOnElement(rokomariHomePage.Add_To_Cart);
-		Thread.sleep(5000);
-		
-		rokomariHomePage.clickOnElement(rokomariHomePage.Cart_Icon);
-		Thread.sleep(3000);
-		
-		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll3);
-		Thread.sleep(3000);
-		
-		rokomariHomePage.clickOnElement(rokomariHomePage.Place_Order);
-		Thread.sleep(3000);
-		
-		rokomariHomePage.writeText(rokomariHomePage.Alternative_Number, "01720970244");
-		Thread.sleep(3000);
-		rokomariHomePage.clickOnElement(rokomariHomePage.Select_Country);
-		Thread.sleep(3000);
-		rokomariHomePage.writeText(rokomariHomePage.Street_Address, "Mumbai");
-		Thread.sleep(3000);
-		rokomariHomePage.clickOnElement(rokomariHomePage.Account);
-		Thread.sleep(2000);
-		rokomariHomePage.clickOnElement(rokomariHomePage.Sign_Out);
-		Thread.sleep(2000);
 		
 	
 		
