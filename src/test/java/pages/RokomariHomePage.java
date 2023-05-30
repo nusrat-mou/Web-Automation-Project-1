@@ -9,13 +9,13 @@ public class RokomariHomePage extends BasePage {
 	public By Humayun_Ahmed = By.xpath("//a[contains(text(),'হুমায়ূন আহমেদ')]");
 	public By scroll = By.xpath("//div[@class='product-sort mt-0']//div[6]");	
 	public By Filter_1 = By.xpath("//label[@for='rok-filter-categoryIds-677']");
-	public By Bottom_Scroll = By.xpath("//img[@alt='Himur Moddhodupur image']");
+	public By Bottom_Scroll = By.xpath("//h4[contains(text(),'অমানুষ')]");
 	public By Next_Page = By.xpath("//a[normalize-space()='Next']");
 	public By Scroll2 = By.xpath("//p[contains(text(),'Ratings')]");
-	public By Hover_Add_To_Cart = By.xpath("//h4[contains(text(),'মিসির আলি অমনিবাস-২')]");
-	public By Add_To_Cart = By.xpath("//body[1]/div[5]/div[1]/div[1]/div[1]/section[2]/div[2]/div[1]/div[18]/div[1]/a[1]/div[1]/div[1]/button[1]");
+	public By Hover_Add_To_Cart = By.xpath("//body/div[6]/div[1]/div[1]/div[1]/section[2]/div[2]/div[1]/div[18]/div[1]/a[1]/div[2]/p[1]");
+	public By Add_To_Cart = By.xpath("//body/div[6]/div[1]/div[1]/div[1]/section[2]/div[2]/div[1]/div[18]/div[1]/a[1]/div[1]/div[2]/button[1]");
 	public By Cart_Icon = By.xpath("//*[@id='cart-icon']");
-	public By Scroll3 = By.xpath("//body/div[@id='cart-page']/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]");
+	public By Scroll3 = By.xpath("//a[contains(text(),'বহুব্রীহি')]");
 	public By Place_Order = By.xpath("//body[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/a[2]/span[1]");
 	public By Alternative_Number = By.xpath("//fieldset[@class='group']//input[@id='phone2']");
 	public By Select_Country = By.xpath("//select[@id='js--country']");

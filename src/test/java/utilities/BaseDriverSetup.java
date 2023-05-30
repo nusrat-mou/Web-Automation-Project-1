@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseDriverSetup {
-	private static String browserName = System.getProperty("browser","chrome");
+	private static String browserName = System.getProperty("browser","firefox");
 	private static final ThreadLocal<WebDriver> LOCAL_DRIVER = new ThreadLocal<>();
     
 	public static void setDriver(WebDriver driver) {

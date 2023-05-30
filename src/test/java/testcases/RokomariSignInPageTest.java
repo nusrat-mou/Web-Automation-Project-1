@@ -1,5 +1,7 @@
 package testcases;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.Test;
 
 import pages.RokomariHomePage;
@@ -27,7 +29,10 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		
 		rokomariSignInPage.writeText(rokomariSignInPage.email_phone_input, "nus.mou.106@gmail.com");
 		rokomariSignInPage.writeText(rokomariSignInPage.password_field, "12345678910");
+		rokomariSignInPage.takeScreenShot("Sign In Info");
 		rokomariSignInPage.clickOnElement(rokomariSignInPage.Login_Button);
+		rokomariSignInPage.takeScreenShot("Sign In");
+		 
 		try {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
@@ -48,10 +53,10 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		Thread.sleep(2000);
 		
 		rokomariHomePage.scrollToElement(rokomariHomePage.Bottom_Scroll);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
 		rokomariHomePage.clickOnElement((rokomariHomePage.Next_Page));
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll2);
 		Thread.sleep(3000);
@@ -66,7 +71,7 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		Thread.sleep(3000);
 		
 		rokomariHomePage.scrollToElement(rokomariHomePage.Scroll3);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		rokomariHomePage.clickOnElement(rokomariHomePage.Place_Order);
 		Thread.sleep(3000);
@@ -82,7 +87,7 @@ public class RokomariSignInPageTest extends BaseDriverSetup {
 		rokomariHomePage.clickOnElement(rokomariHomePage.Sign_Out);
 		Thread.sleep(2000);
 		
-		
+	
 		
 		
 		
